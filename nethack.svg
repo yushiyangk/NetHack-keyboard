@@ -10,6 +10,26 @@
 		.key .mask {
 			fill: #eeeeee;
 			}
+		text {
+			font-family: "Open Sans Condensed Light";
+			font-size: 16px;
+			text-anchor: start;
+			fill: #333333;
+			}
+		text tspan {
+			font-family: "Open Sans Light";
+			font-style: normal;
+			fill: #cc0033;
+			}
+		text.lw {
+			opacity: .7;
+			font-style: italic;
+			}
+		#lc {
+			font-family: "Open Sans Condensed Light";
+			font-style: normal;
+			fill: #cc0033;
+		}
 	]]></style>
 	<defs>
 		<g id="key" class="key">
@@ -36,6 +56,7 @@
 		<g id="key25" class="key">
 			<rect class="mask" x="2" y="2" width="496" height="76" rx="6" ry="6" />
 		</g>
+		<tspan id="lc">^</tspan>
 		<linearGradient id="gr-tr" x1="25%" y1="65%" x2="0%" y2="0%">
 			<stop offset="15%" style="stop-color:#aaaaaa;stop-opacity:1" />
 			<stop offset="50%" style="stop-color:#dddddd;stop-opacity:1" />
@@ -98,8 +119,15 @@
 			<g transform="translate(0, 80)"><use xlink:href="#key6" />
 			</g>
 			<g transform="translate(120, 80)"><use xlink:href="#key" />
+				<text class="lm" x="8" y="19"><tspan>q</tspan>uaff</text>
+				<text class="lm" x="8" y="37"><tspan>Q</tspan>uiver</text>
+				<text class="lm" x="8" y="55"><tspan>!q</tspan>uit</text>
 			</g>
 			<g transform="translate(200, 80)"><use xlink:href="#key" />
+				<text class="lm" x="8" y="19"><tspan>w</tspan>ield</text>
+				<text class="lm" x="8" y="37"><tspan>W</tspan>ear armor</text>
+				<text class="lm" x="8" y="55"><tspan>!w</tspan>ipe</text>
+				<text class="lw" x="8" y="73"><use xlink:href="#lc" /><tspan>w</tspan>ish</text>
 			</g>
 			<g transform="translate(280, 80)"><use xlink:href="#key" />
 			</g>
@@ -132,6 +160,10 @@
 			<g transform="translate(220, 160)"><use xlink:href="#key" />
 			</g>
 			<g transform="translate(300, 160)"><use xlink:href="#key" />
+				<text class="lm" x="8" y="19"><tspan>d</tspan>rop</text>
+				<text class="lm" x="8" y="37"><tspan>D</tspan>rop many</text>
+				<text class="lm" x="8" y="55"><tspan>!d</tspan>ip</text>
+				<text class="lm" x="8" y="73"><use xlink:href="#lc" /><tspan>d</tspan> kick</text>
 			</g>
 			<g transform="translate(380, 160)"><use xlink:href="#key" />
 			</g>
