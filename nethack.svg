@@ -13,6 +13,12 @@
 		.mask {
 			opacity: .6;
 			}
+		.mask-n {
+			fill: #999999;
+			}
+		.mask-s {
+			fill: #cccc88;
+			}
 		.mask-f {
 			fill: #aaaacc;
 			}
@@ -33,6 +39,10 @@
 		text tspan.la {
 			font-family: "Linux Libertine G";
 			}
+		text.ls {
+			font-family: "Open Sans Light";
+			font-size: 18px;
+			}
 		text.lw {
 			opacity: .7;
 			}
@@ -46,16 +56,25 @@
 	]]></style>
 	<defs>
 		<g id="key" class="key"><rect class="base" x="2" y="2" width="76" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey-n" class="mask mask-n" x="2" y="2" width="76" height="76" rx="6" ry="6" />
+		<rect id="mkey-s" class="mask mask-s" x="2" y="2" width="76" height="76" rx="6" ry="6" />
 		<rect id="mkey-f" class="mask mask-f" x="2" y="2" width="76" height="76" rx="6" ry="6" />
 		<g id="key5" class="key"><rect class="base" x="2" y="2" width="96" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey5-n" class="mask mask-n" x="2" y="2" width="96" height="76" rx="6" ry="6" />
+		<rect id="mkey5-s" class="mask mask-s" x="2" y="2" width="96" height="76" rx="6" ry="6" />
 		<g id="key6" class="key"><rect class="base" x="2" y="2" width="116" height="76" rx="6" ry="6" /></g>
 		<g id="key7" class="key"><rect class="base" x="2" y="2" width="136" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey7-s" class="mask mask-s" x="2" y="2" width="136" height="76" rx="6" ry="6" />
 		<g id="key8" class="key"><rect class="base" x="2" y="2" width="156" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey8-s" class="mask mask-s" x="2" y="2" width="156" height="76" rx="6" ry="6" />
 		<rect id="mkey8-f" class="mask mask-f" x="2" y="2" width="156" height="76" rx="6" ry="6" />
 		<g id="key9" class="key"><rect class="base" x="2" y="2" width="176" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey9-s" class="mask mask-s" x="2" y="2" width="176" height="76" rx="6" ry="6" />
 		<g id="key11" class="key"><rect class="base" x="2" y="2" width="216" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey11-s" class="mask mask-s" x="2" y="2" width="216" height="76" rx="6" ry="6" />
 		<g id="key25" class="key"><rect class="base" x="2" y="2" width="496" height="76" rx="6" ry="6" /></g>
 		<g id="keyv" class="key"><rect class="base" x="2" y="2" width="76" height="156" rx="6" ry="6" /></g>
+		<rect id="mkeyv-s" class="mask mask-s" x="2" y="2" width="76" height="156" rx="6" ry="6" />
 		<linearGradient id="gr-tr" x1="25%" y1="65%" x2="0%" y2="0%">
 			<stop offset="15%" style="stop-color:#aaaaaa;stop-opacity:1" />
 			<stop offset="50%" style="stop-color:#dddddd;stop-opacity:1" />
@@ -84,34 +103,35 @@
 	</defs>
 	<g transform="translate(2, 2)">
 		<rect id="base" x="-2" y="-2" width="1804" height="504" rx="10" ry="10" />
-		<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
+		<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-s" />
+			<text class="ls" x="24" y="46">Esc</text>
+		</g>
 		<g transform="translate(160, 0)">
-			<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(80, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(160, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(240, 0)"><use xlink:href="#key" /></g>
+			<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(160, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(240, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
 		</g>
 		<g transform="translate(520, 0)">
-			<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(80, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(160, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(240, 0)"><use xlink:href="#key" /></g>
+			<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(160, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(240, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
 		</g>
 		<g transform="translate(880, 0)">
-			<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(80, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(160, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(240, 0)"><use xlink:href="#key" /></g>
+			<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(160, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(240, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
 		</g>
 		<g transform="translate(1220, 0)">
-			<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(80, 0)"><use xlink:href="#key" /></g>
-			<g transform="translate(160, 0)"><use xlink:href="#key" /></g>
+			<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
+			<g transform="translate(160, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-n" /></g>
 		</g>
 		<g transform="translate(0, 100)">
 			<g> <!-- row 12345 -->
-				<g transform="translate(0, 0)"><use xlink:href="#key" />
-				</g>
+				<g transform="translate(0, 0)"><use xlink:href="#key" /></g>
 				<g transform="translate(80, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">1</tspan> <tspan class="la">↙</tspan></text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!1</tspan> <tspan class="la">⇙</tspan></text>
@@ -168,7 +188,8 @@
 					<text class="lm" x="7" y="19"><tspan class="lh">=</tspan> rings w.</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">+</tspan> spells</text>
 				</g>
-				<g transform="translate(1040, 0)"><use xlink:href="#key8" />
+				<g transform="translate(1040, 0)"><use xlink:href="#key8" /><use xlink:href="#mkey8-s" />
+					<text class="ls" x="24" y="46">Backspace</text>
 				</g>
 			</g>
 			<g> <!-- row qwerty -->
@@ -204,8 +225,7 @@
 					<text class="lm" x="5" y="55"><tspan class="lh">!t</tspan>urn undead</text>
 					<text class="lm" x="5" y="73"><tspan class="lf">^</tspan><tspan class="lh">t</tspan>eleport</text>
 				</g>
-				<g transform="translate(520, 80)"><use xlink:href="#key" />
-				</g>
+				<g transform="translate(520, 80)"><use xlink:href="#key" /></g>
 				<g transform="translate(600, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">u</tspan>ntrap</text>
 					<text class="lm" x="5" y="55"><tspan class="lh">!u</tspan>ntrap</text>
@@ -231,14 +251,14 @@
 				<g transform="translate(920, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">[</tspan> armor w.</text>
 				</g>
-				<g transform="translate(1000, 80)"><use xlink:href="#key" />
-				</g>
+				<g transform="translate(1000, 80)"><use xlink:href="#key" /></g>
 				<g transform="translate(1080, 80)"><use xlink:href="#key6" />
 					<text class="lm" x="7" y="19"><tspan class="lh">\</tspan> discoveries</text>
 				</g>
 			</g>
 			<g> <!-- row asdfg -->
-				<g transform="translate(0, 160)"><use xlink:href="#key7" />
+				<g transform="translate(0, 160)"><use xlink:href="#key7" /><use xlink:href="#mkey7-s" />
+					<text class="ls" x="24" y="46">Caps Lock</text>
 				</g>
 				<g transform="translate(140, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">a</tspan>pply</text>
@@ -290,11 +310,13 @@
 				<g transform="translate(940, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="37"><tspan class="lh">"</tspan> amulet w.</text>
 				</g>
-				<g transform="translate(1020, 160)"><use xlink:href="#key9" />
+				<g transform="translate(1020, 160)"><use xlink:href="#key9" /><use xlink:href="#mkey9-s" />
+					<text class="ls" x="24" y="46">Enter</text>
 				</g>
 			</g>
 			<g> <!-- row zxcv -->
-				<g transform="translate(0, 240)"><use xlink:href="#key9" />
+				<g transform="translate(0, 240)"><use xlink:href="#key9" /><use xlink:href="#mkey9-s" />
+					<text class="ls" x="24" y="46">Shift <tspan class="lh">+</tspan></text>
 				</g>
 				<g transform="translate(180, 240)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">z</tspan>ap wand</text>
@@ -316,8 +338,7 @@
 					<text class="lm" x="6" y="55"><tspan class="lh">!v</tspan>ers. details</text>
 					<text class="lw" x="7" y="73">le<tspan class="lf">^</tspan><tspan class="lh">v</tspan>elport</text>
 				</g>
-				<g transform="translate(500, 240)"><use xlink:href="#key" />
-				</g>
+				<g transform="translate(500, 240)"><use xlink:href="#key" /></g>
 				<g transform="translate(580, 240)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">n</tspan> repeat</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">N</tspan>ame item</text>
@@ -341,25 +362,26 @@
 					<text class="lm" x="7" y="37"><tspan class="lh">?</tspan> help</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!/</tspan> list xcmds</text>
 				</g>
-				<g transform="translate(980, 240)"><use xlink:href="#key11" />
+				<g transform="translate(980, 240)"><use xlink:href="#key11" /><use xlink:href="#mkey11-s" />
+					<text class="ls" x="24" y="46">Shift <tspan class="lh">+</tspan></text>
 				</g>
 			</g>
 			<g> <!-- row space -->
-				<g transform="translate(0, 320)"><use xlink:href="#key5" />
+				<g transform="translate(0, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-s" />
+					<text class="ls" x="24" y="46">Ctrl <tspan class="lh">^</tspan></text>
 				</g>
-				<g transform="translate(100, 320)"><use xlink:href="#key5" />
+				<g transform="translate(100, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-n" /></g>
+				<g transform="translate(200, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-s" />
+					<text class="ls" x="24" y="46">Alt <tspan class="lh">!</tspan></text>
 				</g>
-				<g transform="translate(200, 320)"><use xlink:href="#key5" />
+				<g transform="translate(300, 320)"><use xlink:href="#key25" /></g>
+				<g transform="translate(800, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-s" />
+					<text class="ls" x="24" y="46">Alt <tspan class="lh">!</tspan></text>
 				</g>
-				<g transform="translate(300, 320)"><use xlink:href="#key25" />
-				</g>
-				<g transform="translate(800, 320)"><use xlink:href="#key5" />
-				</g>
-				<g transform="translate(900, 320)"><use xlink:href="#key5" />
-				</g>
-				<g transform="translate(1000, 320)"><use xlink:href="#key5" />
-				</g>
-				<g transform="translate(1100, 320)"><use xlink:href="#key5" />
+				<g transform="translate(900, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-n" /></g>
+				<g transform="translate(1000, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-n" /></g>
+				<g transform="translate(1100, 320)"><use xlink:href="#key5" /><use xlink:href="#mkey5-s" />
+					<text class="ls" x="24" y="46">Ctrl <tspan class="lh">^</tspan></text>
 				</g>
 			</g>
 		</g>
@@ -410,7 +432,11 @@
 		</g>
 		<g transform="translate(1480, 100)">
 			<g>
-				<g transform="translate(0, 0)"><use xlink:href="#key" />
+				<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-s" />
+					<text class="ls" x="40" y="46" style="text-anchor:middle;">
+						<tspan x="40" dy="-10">Num</tspan>
+						<tspan x="40" dy="20">Lock</tspan>
+					</text>
 				</g>
 				<g transform="translate(80, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">/</tspan> what is</text>
@@ -495,7 +521,8 @@
 				<text class="lm" x="6" y="55"><tspan class="lh">!+</tspan> spells</text>
 				<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh la">+</tspan> prev.msg.</text>
 			</g>
-			<g transform="translate(240, 240)"><use xlink:href="#keyv" />
+			<g transform="translate(240, 240)"><use xlink:href="#keyv" /><use xlink:href="#mkeyv-s" />
+				<text class="ls" x="40" y="46" style="text-anchor:middle;">Enter</text>
 			</g>
 		</g>
 	</g>
