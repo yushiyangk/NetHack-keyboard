@@ -519,7 +519,7 @@
 			<g>
 				<g transform="translate(0, 320)"><use xlink:href="#key8" /><use xlink:href="#mkey8-f" />
 					<text class="lm" x="7" y="18"><tspan class="lf">Ins</tspan> inventory</text>
-					<text class="lm" x="6" y="36"><tspan class="lf">+Ins</tspan> inventory categorised</text>
+					<text class="lm" x="6" y="36"><tspan class="lf">+Ins</tspan> inventory categories</text>
 					<text class="ln" x="153" y="72">inventory <tspan class="lh">0</tspan></text>
 				</g>
 				<g transform="translate(160, 320)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
