@@ -7,8 +7,14 @@
 		#base {
 			fill: #333333;
 			}
-		.key .mask {
+		.key .base {
 			fill: #eeeeee;
+			}
+		.mask {
+			opacity: .6;
+			}
+		.mask-f {
+			fill: #aaaacc;
 			}
 		text {
 			font-family: "Open Sans Condensed Light";
@@ -39,34 +45,17 @@
 		}
 	]]></style>
 	<defs>
-		<g id="key" class="key">
-			<rect class="mask" x="2" y="2" width="76" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key5" class="key">
-			<rect class="mask" x="2" y="2" width="96" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key6" class="key">
-			<rect class="mask" x="2" y="2" width="116" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key7" class="key">
-			<rect class="mask" x="2" y="2" width="136" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key8" class="key">
-			<rect class="mask" x="2" y="2" width="156" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key9" class="key">
-			<rect class="mask" x="2" y="2" width="176" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key11" class="key">
-			<rect class="mask" x="2" y="2" width="216" height="76" rx="6" ry="6" />
-		</g>
-		<g id="key25" class="key">
-			<rect class="mask" x="2" y="2" width="496" height="76" rx="6" ry="6" />
-		</g>
-		<g id="keyv" class="key">
-			<rect class="mask" x="2" y="2" width="76" height="156" rx="6" ry="6" />
-		</g>
-		<tspan id="lc">^</tspan>
+		<g id="key" class="key"><rect class="base" x="2" y="2" width="76" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey-f" class="mask mask-f" x="2" y="2" width="76" height="76" rx="6" ry="6" />
+		<g id="key5" class="key"><rect class="base" x="2" y="2" width="96" height="76" rx="6" ry="6" /></g>
+		<g id="key6" class="key"><rect class="base" x="2" y="2" width="116" height="76" rx="6" ry="6" /></g>
+		<g id="key7" class="key"><rect class="base" x="2" y="2" width="136" height="76" rx="6" ry="6" /></g>
+		<g id="key8" class="key"><rect class="base" x="2" y="2" width="156" height="76" rx="6" ry="6" /></g>
+		<rect id="mkey8-f" class="mask mask-f" x="2" y="2" width="156" height="76" rx="6" ry="6" />
+		<g id="key9" class="key"><rect class="base" x="2" y="2" width="176" height="76" rx="6" ry="6" /></g>
+		<g id="key11" class="key"><rect class="base" x="2" y="2" width="216" height="76" rx="6" ry="6" /></g>
+		<g id="key25" class="key"><rect class="base" x="2" y="2" width="496" height="76" rx="6" ry="6" /></g>
+		<g id="keyv" class="key"><rect class="base" x="2" y="2" width="76" height="156" rx="6" ry="6" /></g>
 		<linearGradient id="gr-tr" x1="25%" y1="65%" x2="0%" y2="0%">
 			<stop offset="15%" style="stop-color:#aaaaaa;stop-opacity:1" />
 			<stop offset="50%" style="stop-color:#dddddd;stop-opacity:1" />
@@ -375,46 +364,46 @@
 			</g>
 		</g>
 		<g transform="translate(1220, 100)">
-			<g transform="translate(0, 0)"><use xlink:href="#key" />
+			<g transform="translate(0, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">Ins</tspan> inventory</text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+Ins</tspan> inv. cat.</text>
 			</g>
-			<g transform="translate(80, 0)"><use xlink:href="#key" />
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">Home</tspan> <tspan class="la">↖</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+Home</tspan> <tspan class="la">⇖</tspan></text>
 			</g>
-			<g transform="translate(160, 0)"><use xlink:href="#key" />
+			<g transform="translate(160, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">PgUp</tspan> <tspan class="la">↗</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+PgUp</tspan> <tspan class="la">⇗</tspan></text>
 			</g>
-			<g transform="translate(0, 80)"><use xlink:href="#key" />
+			<g transform="translate(0, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">Del</tspan> rest</text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+Del</tspan> look</text>
 				<text class="lm" x="7" y="73"><tspan class="lf">^Del</tspan> look</text>
 			</g>
-			<g transform="translate(80, 80)"><use xlink:href="#key" />
+			<g transform="translate(80, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">End</tspan> <tspan class="la">↙</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+End</tspan> <tspan class="la">⇙</tspan></text>
 			</g>
-			<g transform="translate(160, 80)"><use xlink:href="#key" />
+			<g transform="translate(160, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lf">PgDn</tspan> <tspan class="la">↘</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+PgDn</tspan> <tspan class="la">⇘</tspan></text>
 			</g>
 		</g>
 		<g transform="translate(1220, 340)">
-			<g transform="translate(80, 0)"><use xlink:href="#key" />
+			<g transform="translate(80, 0)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lh la">↑</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">↑</tspan></tspan> <tspan class="la">⇑</tspan></text>
 			</g>
-			<g transform="translate(0, 80)"><use xlink:href="#key" />
+			<g transform="translate(0, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lh la">←</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">←</tspan></tspan> <tspan class="la">⇐</tspan></text>
 			</g>
-			<g transform="translate(80, 80)"><use xlink:href="#key" />
+			<g transform="translate(80, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lh la">↓</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">↓</tspan></tspan> <tspan class="la">⇓</tspan></text>
 			</g>
-			<g transform="translate(160, 80)"><use xlink:href="#key" />
+			<g transform="translate(160, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 				<text class="lm" x="7" y="19"><tspan class="lh la">→</tspan></text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">→</tspan></tspan> <tspan class="la">⇒</tspan></text>
 			</g>
@@ -424,11 +413,11 @@
 				<g transform="translate(0, 0)"><use xlink:href="#key" />
 				</g>
 				<g transform="translate(80, 0)"><use xlink:href="#key" />
-				<text class="lm" x="7" y="19"><tspan class="lh">/</tspan> what is</text>
+					<text class="lm" x="7" y="19"><tspan class="lh">/</tspan> what is</text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+</tspan><tspan class="lh">/</tspan> what is</text>
 				</g>
 				<g transform="translate(160, 0)"><use xlink:href="#key" />
-				<text class="lm" x="7" y="19"><tspan class="lh">*</tspan> equip. w.</text>
+					<text class="lm" x="7" y="19"><tspan class="lh">*</tspan> equip. w.</text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+</tspan><tspan class="lh">*</tspan> equip. w.</text>
 				</g>
 				<g transform="translate(240, 0)"><use xlink:href="#key" />
@@ -437,63 +426,63 @@
 				</g>
 			</g>
 			<g>
-				<g transform="translate(0, 80)"><use xlink:href="#key" />
+				<g transform="translate(0, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">Home</tspan> <tspan class="la">↖</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+Home</tspan> <tspan class="la">⇖</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↖</tspan> <tspan class="lh">7</tspan></text>
 				</g>
-				<g transform="translate(80, 80)"><use xlink:href="#key" />
+				<g transform="translate(80, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lh la">↑</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">↑</tspan></tspan> <tspan class="la">⇑</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↑</tspan> <tspan class="lh">8</tspan></text>
 				</g>
-				<g transform="translate(160, 80)"><use xlink:href="#key" />
+				<g transform="translate(160, 80)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">PgUp</tspan> <tspan class="la">↗</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+PgUp</tspan> <tspan class="la">⇗</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↗</tspan> <tspan class="lh">9</tspan></text>
 				</g>
 			</g>
 			<g>
-				<g transform="translate(0, 160)"><use xlink:href="#key" />
+				<g transform="translate(0, 160)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lh la">←</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">←</tspan></tspan> <tspan class="la">⇐</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">←</tspan> <tspan class="lh">4</tspan></text>
 				</g>
-				<g transform="translate(80, 160)"><use xlink:href="#key" />
+				<g transform="translate(80, 160)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lh la">□</tspan> go</text>
 					<text class="lm" x="6" y="37"><tspan class="lh">+<tspan class="la">□</tspan></tspan> autorest</text>
 					<text class="ln" x="73" y="73">go <tspan class="lh">5</tspan></text>
 				</g>
-				<g transform="translate(160, 160)"><use xlink:href="#key" />
+				<g transform="translate(160, 160)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lh la">→</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">→</tspan></tspan> <tspan class="la">⇒</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">→</tspan> <tspan class="lh">6</tspan></text>
 				</g>
 			</g>
 			<g>
-				<g transform="translate(0, 240)"><use xlink:href="#key" />
+				<g transform="translate(0, 240)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">End</tspan> <tspan class="la">↙</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+End</tspan> <tspan class="la">⇙</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↙</tspan> <tspan class="lh">1</tspan></text>
 				</g>
-				<g transform="translate(80, 240)"><use xlink:href="#key" />
+				<g transform="translate(80, 240)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lh la">↓</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+<tspan class="la">↓</tspan></tspan> <tspan class="la">⇓</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↓</tspan> <tspan class="lh">2</tspan></text>
 				</g>
-				<g transform="translate(160, 240)"><use xlink:href="#key" />
+				<g transform="translate(160, 240)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">PgDn</tspan> <tspan class="la">↘</tspan></text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+PgDn</tspan> <tspan class="la">⇘</tspan></text>
 					<text class="ln" x="73" y="73"><tspan class="la">↘</tspan> <tspan class="lh">3</tspan></text>
 				</g>
 			</g>
 			<g>
-				<g transform="translate(0, 320)"><use xlink:href="#key8" />
+				<g transform="translate(0, 320)"><use xlink:href="#key8" /><use xlink:href="#mkey8-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">Ins</tspan> inventory</text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+Ins</tspan> inv. cat.</text>
 					<text class="ln" x="153" y="73">inventory <tspan class="lh">0</tspan></text>
 				</g>
-				<g transform="translate(160, 320)"><use xlink:href="#key" />
+				<g transform="translate(160, 320)"><use xlink:href="#key" /><use xlink:href="#mkey-f" />
 					<text class="lm" x="7" y="19"><tspan class="lf">Del</tspan> rest</text>
 					<text class="lm" x="6" y="37"><tspan class="lf">+Del</tspan> look</text>
 					<text class="ln" x="73" y="55">rest <tspan class="lh" style="font-family:'Open Sans';">.</tspan></text>
@@ -503,6 +492,7 @@
 			<g transform="translate(240, 80)"><use xlink:href="#keyv" />
 				<text class="lm" x="7" y="19"><tspan class="lh">+</tspan> spells</text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+</tspan><tspan class="lh">+</tspan> put on a.</text>
+				<text class="lm" x="6" y="55"><tspan class="lh">!+</tspan> spells</text>
 				<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh la">+</tspan> prev.msg.</text>
 			</g>
 			<g transform="translate(240, 240)"><use xlink:href="#keyv" />
