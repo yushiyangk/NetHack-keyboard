@@ -134,12 +134,12 @@
 				</g>
 				<g transform="translate(240, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">3</tspan> <tspan class="la">↘</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">#</tspan> xcmd</text>
+					<text class="lm" x="7" y="37"><tspan class="lh">#</tspan> xcmd</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!3</tspan> <tspan class="la">⇘</tspan></text>
 				</g>
 				<g transform="translate(320, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">4</tspan> <tspan class="la">←</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">$</tspan> gold</text>
+					<text class="lm" x="7" y="37"><tspan class="lh">$</tspan> gold</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!4</tspan> <tspan class="la">⇐</tspan></text>
 				</g>
 				<g transform="translate(400, 0)"><use xlink:href="#key" />
@@ -148,22 +148,22 @@
 				</g>
 				<g transform="translate(480, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">6</tspan> <tspan class="la">→</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">^</tspan> id. trap</text>
+					<text class="lm" x="7" y="37"><tspan class="lh">^</tspan> id. trap</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!6</tspan> <tspan class="la">⇒</tspan></text>
 				</g>
 				<g transform="translate(560, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">7</tspan> <tspan class="la">↖</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">&amp;</tspan> id. cmd</text>
+					<text class="lm" x="7" y="37"><tspan class="lh">&amp;</tspan> id. cmd</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!7</tspan> <tspan class="la">⇖</tspan></text>
 				</g>
 				<g transform="translate(640, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">8</tspan> <tspan class="la">↑</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">*</tspan> equip. w. </text>
+					<text class="lm" x="7" y="37"><tspan class="lh">*</tspan> equip. w. </text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!8</tspan> <tspan class="la">⇑</tspan></text>
 				</g>
 				<g transform="translate(720, 0)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">9</tspan> <tspan class="la">↗</tspan></text>
-					<text class="lm" x="5" y="37"><tspan class="lh">(</tspan> tool w.</text>
+					<text class="lm" x="7" y="37"><tspan class="lh">(</tspan> tool w.</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!9</tspan> <tspan class="la">⇗</tspan></text>
 				</g>
 				<g transform="translate(800, 0)"><use xlink:href="#key" />
@@ -194,25 +194,25 @@
 					<text class="lm" x="7" y="19"><tspan class="lh">w</tspan>ield</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">W</tspan>ear armor</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!w</tspan>ipe</text>
-					<text class="lw" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">w</tspan>ish</text>
+					<text class="lw" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">w</tspan>ish</text>
 				</g>
 				<g transform="translate(280, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">e</tspan>at</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">E</tspan>ngrave</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!e</tspan>nhance</text>
-					<text class="lw" x="7" y="73">d<use xlink:href="#lc" /><tspan class="lh">e</tspan>tect uns.</text>
+					<text class="lw" x="7" y="73">d<tspan class="lf">^</tspan><tspan class="lh">e</tspan>tect uns.</text>
 				</g>
 				<g transform="translate(360, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">r</tspan>ead</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">R</tspan>emove acc.</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!r</tspan>ub</text>
-					<text class="lm" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">r</tspan>edraw scn</text>
+					<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">r</tspan>edraw scn</text>
 				</g>
 				<g transform="translate(440, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">t</tspan>hrow</text>
 					<text class="lm" x="5" y="37"><tspan class="lh">T</tspan>ake off arm.</text>
 					<text class="lm" x="5" y="55"><tspan class="lh">!t</tspan>urn undead</text>
-					<text class="lm" x="5" y="73"><use xlink:href="#lc" /><tspan class="lh">t</tspan>eleport</text>
+					<text class="lm" x="5" y="73"><tspan class="lf">^</tspan><tspan class="lh">t</tspan>eleport</text>
 				</g>
 				<g transform="translate(520, 80)"><use xlink:href="#key" />
 				</g>
@@ -224,19 +224,19 @@
 					<text class="lm" x="6" y="19"><tspan class="lh">i</tspan>nventory</text>
 					<text class="lm" x="6" y="37"><tspan class="lh">I</tspan>nventory cat.</text>
 					<text class="lm" x="6" y="55"><tspan class="lh">!i</tspan>nvoke</text>
-					<text class="lw" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">i</tspan>dentify</text>
+					<text class="lw" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">i</tspan>dentify</text>
 				</g>
 				<g transform="translate(760, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">o</tspan>pen</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">O</tspan>ptions</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!o</tspan>ffer</text>
-					<text class="lw" x="7" y="73">l<use xlink:href="#lc" /><tspan class="lh">o</tspan>cations</text>
+					<text class="lw" x="7" y="73">l<tspan class="lf">^</tspan><tspan class="lh">o</tspan>cations</text>
 				</g>
 				<g transform="translate(840, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">p</tspan>ay</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">P</tspan>ut on acc.</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!p</tspan>ray</text>
-					<text class="lm" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">p</tspan>rev. msg.</text>
+					<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">p</tspan>rev. msg.</text>
 				</g>
 				<g transform="translate(920, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">[</tspan> armor w.</text>
@@ -254,7 +254,7 @@
 					<text class="lm" x="7" y="19"><tspan class="lh">a</tspan>pply</text>
 					<text class="lm" x="7" y="37">t<tspan class="lh">A</tspan>ke off vari.</text>
 					<text class="lm" x="6" y="55"><tspan class="lh">!a</tspan>djust letter</text>
-					<text class="lm" x="7" y="73">do <use xlink:href="#lc" /><tspan class="lh">a</tspan>gain</text>
+					<text class="lm" x="7" y="73">do <tspan class="lf">^</tspan><tspan class="lh">a</tspan>gain</text>
 				</g>
 				<g transform="translate(220, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">s</tspan>earch</text>
@@ -265,18 +265,18 @@
 					<text class="lm" x="7" y="19"><tspan class="lh">d</tspan>rop</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">D</tspan>rop many</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!d</tspan>ip</text>
-					<text class="lm" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">d</tspan> kick</text>
+					<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">d</tspan> kick</text>
 				</g>
 				<g transform="translate(380, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">f</tspan>ire</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">F</tspan>ight</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!f</tspan>orce</text>
-					<text class="lw" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">f</tspan> map level</text>
+					<text class="lw" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">f</tspan> map level</text>
 				</g>
 				<g transform="translate(460, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">g</tspan>o</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">G</tspan>o far</text>
-					<text class="lw" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">g</tspan> create m.</text>
+					<text class="lw" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">g</tspan> create m.</text>
 				</g>
 				<g transform="translate(540, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">h</tspan>elp</text>
@@ -291,7 +291,7 @@
 				<g transform="translate(780, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">l</tspan>oot</text>
 					<text class="lm" x="7" y="55"><tspan class="lh">!l</tspan>oot</text>
-					<text class="lm" x="5" y="73"><use xlink:href="#lc" /><tspan class="lh">l</tspan> redraw scn</text>
+					<text class="lm" x="5" y="73"><tspan class="lf">^</tspan><tspan class="lh">l</tspan> redraw scn</text>
 				</g>
 				<g transform="translate(860, 160)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh" style="font-family:'Open Sans';">;</tspan> far look</text>
@@ -313,7 +313,7 @@
 				<g transform="translate(260, 240)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">x</tspan> swap wep.</text>
 					<text class="lm" x="7" y="37">e<tspan class="lh">X</tspan>plore mo.</text>
-					<text class="lm" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh">x</tspan> attributes</text>
+					<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh">x</tspan> attributes</text>
 				</g>
 				<g transform="translate(340, 240)"><use xlink:href="#key" />
 					<text class="lm" x="6" y="19"><tspan class="lh">c</tspan>lose</text>
@@ -324,7 +324,7 @@
 					<text class="lm" x="7" y="19"><tspan class="lh">v</tspan>ersion</text>
 					<text class="lm" x="7" y="37"><tspan class="lh">V</tspan>ers. history</text>
 					<text class="lm" x="6" y="55"><tspan class="lh">!v</tspan>ers. details</text>
-					<text class="lw" x="7" y="73">le<use xlink:href="#lc" /><tspan class="lh">v</tspan>elport</text>
+					<text class="lw" x="7" y="73">le<tspan class="lf">^</tspan><tspan class="lh">v</tspan>elport</text>
 				</g>
 				<g transform="translate(500, 240)"><use xlink:href="#key" />
 				</g>
@@ -502,7 +502,7 @@
 			<g transform="translate(240, 80)"><use xlink:href="#keyv" />
 				<text class="lm" x="7" y="19"><tspan class="lh">+</tspan> spells</text>
 				<text class="lm" x="6" y="37"><tspan class="lf">+</tspan><tspan class="lh">+</tspan> put on a.</text>
-				<text class="lm" x="6" y="73"><use xlink:href="#lc" /><tspan class="lh la">+</tspan> prev.msg.</text>
+				<text class="lm" x="6" y="73"><tspan class="lf">^</tspan><tspan class="lh la">+</tspan> prev.msg.</text>
 			</g>
 			<g transform="translate(240, 240)"><use xlink:href="#keyv" />
 			</g>
