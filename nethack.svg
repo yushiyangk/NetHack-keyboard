@@ -184,6 +184,7 @@
 			</g>
 			<g> <!-- row qwerty -->
 				<g transform="translate(0, 80)"><use xlink:href="#key6" />
+					<text class="lw" x="7" y="19"><tspan class="lf">Tab</tspan> identify</text>
 				</g>
 				<g transform="translate(120, 80)"><use xlink:href="#key" />
 					<text class="lm" x="7" y="19"><tspan class="lh">q</tspan>uaff</text>
